@@ -1,0 +1,17 @@
+# VSCode Terminal Emulator - Requirements
+# Python 3.8+
+
+# Core GUI
+PyQt6>=6.4.0
+PyQt6-Qt6>=6.4.0
+PyQt6-sip>=13.4.0
+
+# Terminal emulation
+# ptyprocess>=0.7.0  # Cross-platform PTY
+
+# Additional utilities
+pyperclip>=1.8.2      # Clipboard support
+psutil>=5.9.0         # Process management
+
+# Optional: for enhanced features
+# Pillow>=9.0.0       # Image support in terminal
